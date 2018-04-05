@@ -27,13 +27,13 @@ class TreeCollection
 public:
 
 	/** TreeCollection()
-    *	A default constructor for the class that creates an empty TreeCollection. 
-    */
+	*	A default constructor for the class that creates an empty TreeCollection. 
+	*/
 	TreeCollection();
 
 
 	/** A destructor for the class. 
-    */
+	*/
 	~TreeCollection();
 
 
