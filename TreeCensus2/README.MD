@@ -4,7 +4,7 @@ Main Implementation
 - Based on the different commands, I output the tree info and data.
 - Using while loop, I do this until eof.
 
-AVL_Tree implementation
+AVL_Tree Implementation
 - The AVL_Tree takes in tree object and store it in order.
 - It balance itself everytime insertion or deletion if it is unbalanced by doing rotations.
 - The AVL_Tree class also has functions that output tree info that TreeCollection can call.
