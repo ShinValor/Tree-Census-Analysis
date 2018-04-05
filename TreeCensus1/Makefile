@@ -24,7 +24,7 @@ all: project1
 
 .PHONY: clean  cleanall
 clean:
-	rm -f *.o
+	rm main.o pseudoserver.o tree.o project1
 
 cleanall:
 	rm -f *.o project1
