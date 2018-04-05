@@ -97,11 +97,11 @@ public:
 	/***********************Print***********************/
 
 	/** print() 
-    * Prints the Tree objects onto the ostream using inorder traversal.
-    * Each of the members of the Tree object is printed, in the exact
-    * same order, with tree spc_common name first, then the tree_id.
-    * Fields will be separated by commas in the output stream.
-    */
+	* Prints the Tree objects onto the ostream using inorder traversal.
+	* Each of the members of the Tree object is printed, in the exact
+	* same order, with tree spc_common name first, then the tree_id.
+	* Fields will be separated by commas in the output stream.
+	*/
 	void print(ostream & out) const;
 
 
@@ -278,15 +278,15 @@ private:
 	
 	double haversine(double lat1, double lon1, double lat2, double lon2) const
 	{
-    	lat1        = TO_RAD * lat1;
-    	lat2        = TO_RAD * lat2;
-    	lon1        = TO_RAD * lon1;
-    	lon2        = TO_RAD * lon2;
-    	double dLat = (lat2 - lat1)/2;
-    	double dLon = (lon2 - lon1)/2;
-    	double a    = sin(dLat);
-    	double b    = sin(dLon);
-    	return 2*R * asin(sqrt(a*a + cos(lat1) * cos(lat2) * b*b));
+		lat1        = TO_RAD * lat1;
+		lat2        = TO_RAD * lat2;
+		lon1        = TO_RAD * lon1;
+		lon2        = TO_RAD * lon2;
+		double dLat = (lat2 - lat1)/2;
+		double dLon = (lon2 - lon1)/2;
+		double a    = sin(dLat);
+		double b    = sin(dLon);
+		return 2*R * asin(sqrt(a*a + cos(lat1) * cos(lat2) * b*b));
 	}
 
 };
