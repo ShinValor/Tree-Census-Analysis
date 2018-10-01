@@ -3,8 +3,10 @@ In 2016, New York City made public the results of TreesCount, the 2015 Street Tr
 
 
 <b> Main Implementation: </b>
-- Continue...
--
+- Overload the main function for users to input arguments. The program will check if the agruments are valid.
+- Create ifstream to open Tree census dataset and Commandline file.
+- Based on different commands, the program will output different tree data.
+
 
 <b> Tree Implementation: </b>
 - The Tree class takes in data from the Tree Census dataset and analyze it.
@@ -12,9 +14,10 @@ In 2016, New York City made public the results of TreesCount, the 2015 Street Tr
 
 
 <b> PseudoServer Implementation: </b>
-- Continue...
--
+- Implement a queue linked list to enqueue and dequeue efficiently
+- Input part of the dataset into the queue so the program can analyze the dataset in a piecewise way.
+
 
 <b> Processing: </b>
-- Continue...
--
+- Given the command lines, the program outputs the tree data embeded in AVL_Tree object.
+- To process the commands, I created functions to process different type of commands.
